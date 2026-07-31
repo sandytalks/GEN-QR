@@ -10,8 +10,6 @@
 
 > **Gen QR** is a feature-rich, high-performance desktop application for generating, designing, and scanning QR codes. Built with a stunning modern UI inspired by Tailwind CSS and Glassmorphism, it bridges the gap between powerful developer tools and beautiful design.
 
-*(📸 Add a screenshot of your beautiful application here!)*
-<!-- ![App Screenshot](docs/screenshot.png) -->
 
 ---
 
@@ -54,28 +52,10 @@ Generate highly customized QR codes for:
 ## 📥 Installation & Download
 
 ### Option 1: Download the Windows Installer (Easiest)
-1. Go to the [Releases](https://github.com/yourusername/yourrepo/releases) tab.
-2. Download **`GenQR_Setup_v1.7.0.exe`**.
-3. Run the installer and launch the app!
+1.Click [Downlad](https://github.com/sandytalks/GEN-QR/releases/download/genqr170/GenQR_Setup_v1.7.0.exe).
+2. Run the installer and launch the app!
 
-### Option 2: Run from Source
-Ensure you have Python 3.10+ installed.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/GenQR.git
-   cd GenQR
-   ```
-2. Install the required dependencies:
-   ```bash
-   pip install PyQt6 qrcode pillow opencv-python numpy requests
-   ```
-3. Run the application:
-   ```bash
-   python main.py
-   ```
-
----
 
 ## ⌨️ Keyboard Shortcuts
 | Shortcut | Action |
