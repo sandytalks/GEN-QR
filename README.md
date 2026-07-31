@@ -51,7 +51,6 @@ Generate highly customized QR codes for:
 
 ## 📥 Installation & Download
 
-### Option 1: Download the Windows Installer (Easiest)
 1.Click [Downlad](https://github.com/sandytalks/GEN-QR/releases/download/genqr170/GenQR_Setup_v1.7.0.exe).
 2. Run the installer and launch the app!
 
