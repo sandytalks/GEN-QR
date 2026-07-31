@@ -1,2 +1,107 @@
-# GEN-QR
-A powerful, beautifully designed desktop QR Code Generator &amp; Scanner. Features 14+ QR types, bulk generation, live webcam scanning, custom logos, and a modern UI built with Python, PyQt6, and OpenCV.
+
+# 🚀 Gen QR Studio
+**The Ultimate, Modern QR Code Generator & Scanner**  
+*Created by [Sandytalks]*
+
+![Gen QR Version](https://img.shields.io/badge/Version-1.7.0-blue?style=for-the-badge&color=6366f1)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&color=3b82f6)
+![PyQt6](https://img.shields.io/badge/GUI-PyQt6-green?style=for-the-badge&color=10b981)
+![OpenCV](https://img.shields.io/badge/Vision-OpenCV-red?style=for-the-badge&color=ef4444)
+
+> **Gen QR** is a feature-rich, high-performance desktop application for generating, designing, and scanning QR codes. Built with a stunning modern UI inspired by Tailwind CSS and Glassmorphism, it bridges the gap between powerful developer tools and beautiful design.
+
+*(📸 Add a screenshot of your beautiful application here!)*
+<!-- ![App Screenshot](docs/screenshot.png) -->
+
+---
+
+## ✨ Key Features
+
+### 🛠️ 14+ QR Code Types Supported
+Generate highly customized QR codes for:
+`URL` • `Text` • `Email` • `Phone` • `SMS` • `WiFi` • `vCard` • `Location` • `Crypto` • `Event` • `Image/Cloud` • `WhatsApp` • `Instagram` • `Spotify`
+
+### 🎨 Pro-Level Design Studio
+- **Custom Patterns:** Choose from Square, Rounded, Dots, or Diamond styles for both modules and eyes.
+- **Colors & Gradients:** Apply solid colors or stunning Linear/Radial gradients. 
+- **Logos & Branding:** Embed custom logos with adjustable scale and smart cutout backgrounds.
+- **CTA Banners:** Add "SCAN ME" badges or bottom frames to your QR codes.
+- **1-Click Themes:** Save your own templates or use built-in aesthetic color palettes.
+
+### 🤖 Smart & Automated Features
+- **Smart Parse AI:** Paste a block of text or vCard data, and the app will auto-detect the QR type and fill the forms for you!
+- **Auto-Shorten URLs:** Built-in URL shortener to keep your QR codes clean and easily scannable.
+- **Live Translation:** Translate text instantly using the built-in translation engine before generating.
+- **Real-time Scannability Health:** Live analysis of your QR code's contrast and density to ensure it will scan perfectly.
+
+### 🔍 Advanced Scanning & Decoding
+- **Live Webcam Scanner:** Scan QR codes right from your computer's camera! 
+- **Auto-WiFi Connect:** Scan a WiFi QR code with your webcam and instantly connect your PC to the network.
+- **Image & Batch Decoding:** Extract QR data from single images or bulk-decode an entire folder of images into a CSV file.
+
+### 📦 Bulk Generation Power
+- Import lists via `.txt` or `.csv`.
+- Export thousands of QR codes instantly to a **ZIP Archive**, a **Folder**, or a ready-to-print **A4 PDF/Image Sheet**.
+
+### 💻 Developer & User Friendly
+- **Formats:** Export as crisp `PNG` or lossless `SVG` vector files.
+- **Dark/Light Mode:** Gorgeous frameless UI that switches themes instantly.
+- **Analytics & History:** Keep track of what you generate with the built-in History Manager and Analytics Dashboard.
+- **Keyboard Shortcuts:** Built for speed (e.g., `Ctrl+G` to Generate, `Ctrl+S` to Save).
+
+---
+
+## 📥 Installation & Download
+
+### Option 1: Download the Windows Installer (Easiest)
+1. Go to the [Releases](https://github.com/yourusername/yourrepo/releases) tab.
+2. Download **`GenQR_Setup_v1.7.0.exe`**.
+3. Run the installer and launch the app!
+
+### Option 2: Run from Source
+Ensure you have Python 3.10+ installed.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/GenQR.git
+   cd GenQR
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install PyQt6 qrcode pillow opencv-python numpy requests
+   ```
+3. Run the application:
+   ```bash
+   python main.py
+   ```
+
+---
+
+## ⌨️ Keyboard Shortcuts
+| Shortcut | Action |
+| :--- | :--- |
+| `Ctrl + G` | Generate QR Code |
+| `Ctrl + S` | Save as PNG |
+| `Ctrl + Shift + S` | Save as SVG |
+| `Ctrl + C` | Copy Image to Clipboard |
+| `Ctrl + B` | Open Bulk Generator |
+| `Ctrl + L` | Clear all fields |
+
+---
+
+## 🛠️ Technology Stack
+- **UI Framework:** [PyQt6](https://pypi.org/project/PyQt6/) (with custom QSS styling)
+- **QR Generation:** [qrcode](https://pypi.org/project/qrcode/)
+- **Image Processing:** [Pillow (PIL)](https://pillow.readthedocs.io/)
+- **Computer Vision (Scanning):** [OpenCV (cv2)](https://opencv.org/) & [NumPy](https://numpy.org/)
+- **API Requests:** [Requests](https://pypi.org/project/requests/)
+
+---
+
+## 📝 License
+This project is for personal and educational use.  
+**Created with ❤️ by [Sandytalks]**
+
+### Tips for your GitHub Repo:
+1. Don't forget to **replace `yourusername/yourrepo`** in the "Installation" section with your actual GitHub link!
+2. Take a really nice, clean screenshot of your app running in dark mode and upload it to your repo. Replace the `<!-- ![App Screenshot](docs/screenshot.png) -->` line with the actual link to your image. This is the #1 thing that makes people want to download an app!
