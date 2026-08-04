@@ -1,4 +1,4 @@
-google-site-verification=VG8L5V26nh4x7FoBKjA3rn6PeFg1lVd1TdndGtBiKYM
+
 # 🚀 Gen QR Studio
 **The Ultimate, Modern QR Code Generator & Scanner**  
 *Created by [Sandytalks]*
