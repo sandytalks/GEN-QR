@@ -80,7 +80,3 @@ Generate highly customized QR codes for:
 ## 📝 License
 This project is for personal and educational use.  
 **Created with ❤️ by [Sandytalks]**
-
-### Tips for your GitHub Repo:
-1. Don't forget to **replace `yourusername/yourrepo`** in the "Installation" section with your actual GitHub link!
-2. Take a really nice, clean screenshot of your app running in dark mode and upload it to your repo. Replace the `<!-- ![App Screenshot](docs/screenshot.png) -->` line with the actual link to your image. This is the #1 thing that makes people want to download an app!
